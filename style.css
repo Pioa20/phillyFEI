@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+html{
+  background-color: #ccc77e;
+  height: 100%; 
+  overflow: hidden;
+
+}
+body{
+  height: 100%;
+  background-color: #1c2019;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0;
+}
+nav{
+  width: 100%;
+  height: 6%;
+  margin: 0;
+  background-color: tomato;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+nav .nav_links{
+  width: 10%;
+  margin-right: 15%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+nav .nav_links li{
+  padding-right: 15%;
+}
+.content{
+  background-color: violet;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar{
+  background-color: rgb(174, 182, 107);
+    width: 15%;
+  height: 100%;
+}
+.main-content{
+  background-color: rgb(93, 93, 184);
+    width: 90%;
+  height: 100%;
+}
+.sidebar .nav_links{
+  list-style: none;
+  padding: 10%;
+  margin: 10% auto;
+}
+.sidebar .nav_links li{
+padding: 10%;
+text-align: center;
+}
